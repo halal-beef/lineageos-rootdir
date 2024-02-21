@@ -2,7 +2,7 @@
 <manifest>
   <remote  name="oddsolutions" fetch="https://gitlab.com/oddsolutions"/>
 
-  <project name="halal-beef/lineage_build_stuff" path="lineage_build_stuff" remote="github">
+  <project name="halal-beef/lineageos-rootdir" path="lineageos-rootdir" remote="github">
     <linkfile src="picks.sh" dest="picks.sh" />
   </project>
 
