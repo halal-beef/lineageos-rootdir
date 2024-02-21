@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="oddsolutions" fetch="https://gitlab.com/oddsolutions"/>
+
+  <project name="halal-beef/lineage_build_stuff" path="lineage_build_stuff" remote="github">
+    <linkfile src="picks.sh" dest="picks.sh" />
+  </project>
+
+  <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" remote="github" revision="lineage-21"/>
+  <project name="LineageOS/android_device_samsung_slsi_sepolicy" path="device/samsung_slsi/sepolicy" remote="github" revision="lineage-21"/>
+  <project name="LineageOS/android_hardware_samsung_slsi-linaro_openmax" path="hardware/samsung_slsi-linaro/openmax" remote="github" revision="lineage-21"/>
+  <project name="LineageOS/android_hardware_samsung_slsi-linaro_graphics" path="hardware/samsung_slsi-linaro/graphics" remote="github" revision="lineage-21"/>
+  <project name="LineageOS/android_hardware_samsung_slsi-linaro_exynos5" path="hardware/samsung_slsi-linaro/exynos5" remote="github" revision="lineage-21"/>
+  <project name="LineageOS/android_hardware_samsung_slsi-linaro_exynos" path="hardware/samsung_slsi-linaro/exynos" remote="github" revision="lineage-21"/>
+  <project name="LineageOS/android_hardware_samsung_slsi-linaro_config" path="hardware/samsung_slsi-linaro/config" remote="github" revision="lineage-21"/>
+
+  <!-- x1s -->
+  <project name="fcuzzocrea/android_device_samsung_universal9830-common" path="device/samsung/universal9830-common" remote="github" revision="lineage-21"/>
+  <project name="halal-beef/android_device_samsung_x1s" path="device/samsung/x1s" remote="github" revision="lineage-21"/>
+  <project name="fcuzzocrea/android_kernel_samsung_universal9830" path="kernel/samsung/universal9830" remote="github" revision="lineage-21"/>
+  <project name="fcuzzocrea/proprietary_vendor_samsung_universal9830-common" path="vendor/samsung/universal9830-common" remote="github" revision="lineage-21"/>
+  <project name="halal-beef/proprietary_vendor_samsung_x1s" path="vendor/samsung/x1s" remote="github" revision="lineage-21"/>
+
+  <!-- Personal Stuff -->
+  <project name="luk1337/ih8sn" path="external/ih8sn" revision="master" />
+  <!-- <project name="npjohnson/android_packages_apps_Launcher3" path="packages/apps/Launcher3" /> -->
+  <project name="fcuzzocrea/android_vendor_extra" path="vendor/extra" remote="github"/>
+  <project name="android/proprietary_vendor_google_pixel" path="vendor/google_pixel" remote="oddsolutions"/>
+</manifest>
