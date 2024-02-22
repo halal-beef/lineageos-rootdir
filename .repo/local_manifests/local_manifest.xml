@@ -13,6 +13,7 @@
   <project name="LineageOS/android_hardware_samsung_slsi-linaro_exynos5" path="hardware/samsung_slsi-linaro/exynos5" remote="github" revision="lineage-21"/>
   <project name="LineageOS/android_hardware_samsung_slsi-linaro_exynos" path="hardware/samsung_slsi-linaro/exynos" remote="github" revision="lineage-21"/>
   <project name="LineageOS/android_hardware_samsung_slsi-linaro_config" path="hardware/samsung_slsi-linaro/config" remote="github" revision="lineage-21"/>
+  <project name="LineageOS/android_hardware_samsung_slsi-linaro_interfaces" path="hardware/samsung_slsi-linaro/interfaces" remote="github" revision="lineage-21"/>
 
   <!-- x1s -->
   <project name="fcuzzocrea/android_device_samsung_universal9830-common" path="device/samsung/universal9830-common" remote="github" revision="lineage-21"/>
