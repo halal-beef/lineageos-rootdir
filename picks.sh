@@ -1,3 +1,28 @@
+#!/bin/bash
+
+set -e
+
+function privpick() {
+  git -C $1 fetch github $2
+  git -C $1 cherry-pick FETCH_HEAD
+}
+
+function checkchain() {
+  git -C $1 fetch github $2
+  git -C $1 checkout FETCH_HEAD
+}
+
+source build/envsetup.sh
+
+# -------------- DEVICE STUFF --------------
+
+# device/samsung_slsi/sepolicy
+# repopick 357508 # sepolicy: add policy for super fast charge
+
+# device/lineage/sepolicy
+# repopick 357348 # sepolicy: add policy for super fast charge
+
+# -------------- PLATFORM STUFF --------------
 # build
 repopick -f 369796 # Sorry bro: 6 -> 3
 
