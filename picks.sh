@@ -146,8 +146,8 @@ repopick -f 391308 # Settings: Add three-fingers-swipe to screenshot [2/2]
 # vendor/lineage
 repopick -f -P vendor/lineage 385496 # faceunlock
 repopick -f -P vendor/lineage 381475 # SystemUI: More notification icons on AOD screen
-repopick -f -P vendor/lineage 369794 # lineage: Disable privapp permission enforcement (make it log)
-repopick -f -P vendor/lineage 369795 # adb insecure by default
+#repopick -f -P vendor/lineage 369794 # lineage: Disable privapp permission enforcement (make it log)
+#repopick -f -P vendor/lineage 369795 # adb insecure by default
 # repopick 357968 # config: add super fast charge interface
 
 exit 0
