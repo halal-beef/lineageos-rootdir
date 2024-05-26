@@ -31,11 +31,6 @@ repopick 391063 # common: add sepolicy for slsi tetheroffload HAL
 # device/lineage/sepolicy
 # repopick 357348 # sepolicy: add policy for super fast charge
 
-# device/lineage/sm8250-common
-repopick 390712 # sm8250-common: Use new `wlan_mac.bin` symlink path for pipa
-repopick 390713 # sm8250-common: rootdir: Set permission for pcie wlan rx
-repopick 390714 # sm8250-common: sepolicy: Allow ueventd to read vendor_persist_wcnss_service_file
-
 # -------------- PLATFORM STUFF --------------
 
 # build
