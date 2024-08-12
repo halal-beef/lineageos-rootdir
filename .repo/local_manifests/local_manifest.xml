@@ -1,7 +1,4 @@
 <manifest>
-  <remote  name="gitlab" fetch="https://gitlab.com"/>
-  <remote  name="oddsolutions" fetch="https://gitlab.com/oddsolutions"/>
-
   <project name="halal-beef/lineageos-rootdir" path="lineageos-rootdir" remote="github">
     <linkfile src="picks.sh" dest="picks.sh" />
   </project>
@@ -16,19 +13,12 @@
   <project name="LineageOS/android_hardware_samsung_slsi-linaro_interfaces" path="hardware/samsung_slsi-linaro/interfaces" remote="github" revision="lineage-21" />
   
   <!-- x1s -->
-  <project name="fcuzzocrea/android_device_samsung_universal9830-common" path="device/samsung/universal9830-common" remote="github" revision="lineage-21-qpr2"/>
-  <project name="halal-beef/android_device_samsung_x1s" path="device/samsung/x1s" remote="github" revision="lineage-21-qpr2"/>
+  <project name="borbelyvince/android_device_samsung_universal9830-common" path="device/samsung/universal9830-common" remote="github" revision="lineage-21-qpr2"/>
+  <project name="fcuzzocrea/android_device_samsung_x1s" path="device/samsung/x1s" remote="github" revision="lineage-21-qpr3"/>
   <project name="fcuzzocrea/android_kernel_samsung_universal9830" path="kernel/samsung/universal9830" remote="github" revision="lineage-21-qpr2"/>
   <project name="fcuzzocrea/proprietary_vendor_samsung_universal9830-common" path="vendor/samsung/universal9830-common" remote="github" revision="lineage-21-qpr2"/>
-  <project name="halal-beef/proprietary_vendor_samsung_x1s" path="vendor/samsung/x1s" remote="github" revision="lineage-21-qpr2"/>
-
-  <!-- FaceUnlock -->
-  <project name="bosconovic/platform_packages_apps_faceunlock" path="packages/apps/FaceUnlock" remote="gitlab" />
-
-  <!-- Pixel Stuff -->
-  <project name="bosconovic/proprietary_vendor_google_pixel.git" path="vendor/google_pixel" remote="gitlab"/>
+  <project name="fcuzzocrea/proprietary_vendor_samsung_x1s" path="vendor/samsung/x1s" remote="github" revision="lineage-21-qpr2"/>
 
   <!-- Personal Stuff -->
   <project name="luk1337/ih8sn" path="external/ih8sn" revision="master" />
-  <project name="fcuzzocrea/android_vendor_extra" path="vendor/extra" remote="github"/>
 </manifest>
