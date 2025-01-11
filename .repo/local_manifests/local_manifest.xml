@@ -3,17 +3,17 @@
     <linkfile src="picks.sh" dest="picks.sh" />
   </project>
 
-  <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" remote="github" revision="lineage-21"/>
-  <project name="LineageOS/android_device_samsung_slsi_sepolicy" path="device/samsung_slsi/sepolicy" remote="github" revision="lineage-21"/>
-  <project name="LineageOS/android_hardware_samsung_slsi-linaro_openmax" path="hardware/samsung_slsi-linaro/openmax" remote="github" revision="lineage-21"/>
-  <project name="LineageOS/android_hardware_samsung_slsi-linaro_graphics" path="hardware/samsung_slsi-linaro/graphics" remote="github" revision="lineage-21"/>
-  <project name="LineageOS/android_hardware_samsung_slsi-linaro_exynos5" path="hardware/samsung_slsi-linaro/exynos5" remote="github" revision="lineage-21"/>
-  <project name="LineageOS/android_hardware_samsung_slsi-linaro_exynos" path="hardware/samsung_slsi-linaro/exynos" remote="github" revision="lineage-21"/>
-  <project name="LineageOS/android_hardware_samsung_slsi-linaro_config" path="hardware/samsung_slsi-linaro/config" remote="github" revision="lineage-21"/>
-  <project name="LineageOS/android_hardware_samsung_slsi-linaro_interfaces" path="hardware/samsung_slsi-linaro/interfaces" remote="github" revision="lineage-21" />
+  <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" remote="github" revision="lineage-22.1"/>
+  <project name="LineageOS/android_device_samsung_slsi_sepolicy" path="device/samsung_slsi/sepolicy" remote="github" revision="lineage-22.1"/>
+  <project name="LineageOS/android_hardware_samsung_slsi-linaro_openmax" path="hardware/samsung_slsi-linaro/openmax" remote="github" revision="lineage-22.1"/>
+  <project name="LineageOS/android_hardware_samsung_slsi-linaro_graphics" path="hardware/samsung_slsi-linaro/graphics" remote="github" revision="lineage-22.1"/>
+  <project name="LineageOS/android_hardware_samsung_slsi-linaro_exynos5" path="hardware/samsung_slsi-linaro/exynos5" remote="github" revision="lineage-22.1"/>
+  <project name="LineageOS/android_hardware_samsung_slsi-linaro_exynos" path="hardware/samsung_slsi-linaro/exynos" remote="github" revision="lineage-22.1"/>
+  <project name="LineageOS/android_hardware_samsung_slsi-linaro_config" path="hardware/samsung_slsi-linaro/config" remote="github" revision="lineage-22.1"/>
+  <project name="LineageOS/android_hardware_samsung_slsi-linaro_interfaces" path="hardware/samsung_slsi-linaro/interfaces" remote="github" revision="lineage-22.1" />
 
   <!-- x1s -->
-  <project name="borbelyvince/android_device_samsung_universal9830-common" path="device/samsung/universal9830-common" remote="github" revision="lineage-21-qpr2"/>
-  <project name="fcuzzocrea/android_device_samsung_x1s" path="device/samsung/x1s" remote="github" revision="lineage-21-qpr3"/>
-  <project name="fcuzzocrea/android_kernel_samsung_universal9830" path="kernel/samsung/universal9830" remote="github" revision="lineage-21-qpr3"/>
+  <project name="borbelyvince/android_device_samsung_universal9830-common" path="device/samsung/universal9830-common" remote="github" revision="lineage-22.0"/>
+  <project name="halal-beef/android_device_samsung_x1s" path="device/samsung/x1s" remote="github" revision="lineage-22.1"/>
+  <project name="sexynos9830/990_upstream" path="kernel/samsung/universal9830" remote="github" revision="lineage-22"/>
 </manifest>
