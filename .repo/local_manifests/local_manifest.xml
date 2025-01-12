@@ -15,5 +15,5 @@
   <!-- x1s -->
   <project name="borbelyvince/android_device_samsung_universal9830-common" path="device/samsung/universal9830-common" remote="github" revision="lineage-22.0"/>
   <project name="halal-beef/android_device_samsung_x1s" path="device/samsung/x1s" remote="github" revision="lineage-22.1"/>
-  <project name="franklin-albuquerque/kernel_samsung_universal9830" path="kernel/samsung/universal9830" remote="github" revision="fifteen"/>
+  <project name="sexynos9830/990_upstream" path="kernel/samsung/universal9830" remote="github" revision="halal/lineage-22"/>
 </manifest>
